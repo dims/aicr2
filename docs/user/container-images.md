@@ -20,10 +20,10 @@ A machine-readable **CycloneDX 1.6 JSON** companion to this page is produced by 
 ## Summary
 
 - Components: **26**
-- Unique images: **77**
-- Distinct registries: **11**
+- Unique images: **71**
+- Distinct registries: **10**
 
-Registries: `602401143452.dkr.ecr.us-west-2.amazonaws.com`, `cr.agentgateway.dev`, `docker.io`, `gcr.io`, `ghcr.io`, `gke.gcr.io`, `nvcr.io`, `public.ecr.aws`, `quay.io`, `registry.k8s.io`, `us-docker.pkg.dev`
+Registries: `602401143452.dkr.ecr.us-west-2.amazonaws.com`, `cr.agentgateway.dev`, `docker.io`, `gcr.io`, `ghcr.io`, `gke.gcr.io`, `nvcr.io`, `quay.io`, `registry.k8s.io`, `us-docker.pkg.dev`
 
 ## Components
 
@@ -31,7 +31,7 @@ Registries: `602401143452.dkr.ecr.us-west-2.amazonaws.com`, `cr.agentgateway.dev
 |-----------|------|-------|----------------|--------|
 | agentgateway | helm | agentgateway | v2.2.1 | 1 |
 | agentgateway-crds | helm | agentgateway-crds | v2.2.1 | 0 |
-| aws-ebs-csi-driver | helm | aws-ebs-csi-driver/aws-ebs-csi-driver | 2.59.0 | 6 |
+| aws-ebs-csi-driver | helm | aws-ebs-csi-driver/aws-ebs-csi-driver | 2.59.0 | 0 |
 | aws-efa | helm | aws-efa-k8s-device-plugin | v0.5.26 | 1 |
 | cert-manager | helm | jetstack/cert-manager | v1.20.2 | 4 |
 | dynamo-platform | helm | dynamo-platform | 1.0.2 | 1 |
@@ -68,12 +68,9 @@ _No images extracted._
 
 ### aws-ebs-csi-driver
 
-- `public.ecr.aws/csi-components/csi-attacher:v4.11.0-eksbuild.4`
-- `public.ecr.aws/csi-components/csi-node-driver-registrar:v2.16.0-eksbuild.4`
-- `public.ecr.aws/csi-components/csi-provisioner:v6.2.0-eksbuild.3`
-- `public.ecr.aws/csi-components/csi-resizer:v2.1.0-eksbuild.4`
-- `public.ecr.aws/csi-components/livenessprobe:v2.18.0-eksbuild.4`
-- `public.ecr.aws/ebs-csi-driver/aws-ebs-csi-driver:v1.59.0`
+> Warning: [INTERNAL] helm template failed: exit status 1
+
+_No images extracted._
 
 ### aws-efa
 
@@ -94,7 +91,7 @@ _No images extracted._
 
 - `gcr.io/gke-release/nri-device-injector:1.0.25-gke.6@sha256:7704e2bd74b8edbb76b6913c7904cc2362f1fa887c4d4aba7b19778ea353537c`
 - `gke.gcr.io/pause:3.8@sha256:880e63f94b145e46f1b1082bb71b85e21f16b99b180b9996407d61240ceb9830`
-- `ubuntu:24.04@sha256:c4a8d5503dfb2a3eb8ab5f807da5bc69a85730fb49b5cfca2330194ebcc41c7b`
+- `ubuntu:24.04@sha256:786a8b558f7be160c6c8c4a54f9a57274f3b4fb1491cf65146521ae77ff1dc54`
 - `us-docker.pkg.dev/gce-ai-infra/gpudirect-tcpxo/nccl-plugin-gpudirecttcpx-dev:v1.0.15@sha256:4c9f0de3f39455a2ea35e844e0fc92564ca5629f6b03250fde40e8160719dae4`
 
 ### gpu-operator
